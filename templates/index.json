@@ -114,107 +114,11 @@
         "autoplay_speed": 5
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3",
-        "featured-collections-4",
-        "featured-collections-5"
-      ],
-      "settings": {
-        "title": "Popular categories",
-        "divider": false
-      }
-    },
-    "promo-grid": {
-      "type": "promo-grid",
-      "blocks": {
-        "promo-grid-1": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_scheme": "3"
-          }
-        },
-        "promo-grid-2": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_scheme": "3"
-          }
-        }
-      },
-      "block_order": [
-        "promo-grid-1",
-        "promo-grid-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
+        "title": "Checkout Our Newest Arrivals",
+        "home_featured_products": "new-arrivals",
         "count": 5,
         "mobile_scrollable": true,
         "view_all": true,
@@ -224,8 +128,8 @@
     "featured-collection2": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
+        "title": "BE@RBRICK",
+        "home_featured_products": "be-rbrick-blind-box",
         "count": 5,
         "mobile_scrollable": false,
         "view_all": true,
@@ -446,8 +350,6 @@
   },
   "order": [
     "slideshow",
-    "featured-collections",
-    "promo-grid",
     "featured-collection",
     "featured-collection2",
     "promo-grid2",
