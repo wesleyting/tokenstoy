@@ -140,11 +140,32 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "home_featured_products": "",
+        "home_featured_products": "best-sellers",
         "count": 5,
         "mobile_scrollable": false,
-        "view_all": false,
+        "view_all": true,
         "divider": false
+      }
+    },
+    "1654735012e1cb1d27": {
+      "type": "slideshow-image",
+      "blocks": {
+        "1654735012a1188a42-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/shop_all_copy_b0200b17-5c47-48ea-84be-e5d7f838b9e0.png"
+          }
+        }
+      },
+      "block_order": [
+        "1654735012a1188a42-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
       }
     },
     "logo-list": {
@@ -250,7 +271,7 @@
         "17ce3f3d-8ab7-4220-a63a-b08e139cbf75"
       ],
       "settings": {
-        "title": "Popular brands",
+        "title": "Our Popular Characters",
         "divider": false
       }
     },
@@ -379,27 +400,6 @@
         "autoplay_speed": 7
       }
     },
-    "1654735012e1cb1d27": {
-      "type": "slideshow-image",
-      "blocks": {
-        "1654735012a1188a42-1": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "image": "shopify:\/\/shop_images\/shop_all_copy_b0200b17-5c47-48ea-84be-e5d7f838b9e0.png"
-          }
-        }
-      },
-      "block_order": [
-        "1654735012a1188a42-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
     "1654798989ae449aec": {
       "type": "promo-grid",
       "blocks": {
@@ -457,13 +457,13 @@
     "featured-collection",
     "featured-collection2",
     "16547986394c886e66",
+    "1654735012e1cb1d27",
     "logo-list",
     "newsletter",
     "blog-posts",
     "slideshow-split2",
     "rich-text",
     "1654733232cb7d1166",
-    "1654735012e1cb1d27",
     "1654798989ae449aec"
   ]
 }
