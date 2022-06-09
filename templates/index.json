@@ -106,7 +106,7 @@
         "0893ae21-e18b-4ccc-90b0-3b85f55b790c"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "desktop_size": 0,
         "mobile_size": 0,
         "style": "bars",
@@ -400,10 +400,10 @@
         "autoplay_speed": 7
       }
     },
-    "16547354459761946e": {
+    "1654798989ae449aec": {
       "type": "promo-grid",
       "blocks": {
-        "165473544534fa9452-0": {
+        "165479898854ee1872-0": {
           "type": "advanced",
           "settings": {
             "subheading": "",
@@ -414,126 +414,41 @@
             "cta_text2": "Shop All",
             "cta_link2": "",
             "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#fff"
+          }
+        },
+        "165479898854ee1872-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=6pO-R7KVzaQ",
             "width": "100",
             "height": 500,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
-            "color_accent": "#ffffff"
-          }
-        },
-        "165473544534fa9452-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "#ffffff"
+            "color_accent": "#fff"
           }
         }
       },
       "block_order": [
-        "165473544534fa9452-0",
-        "165473544534fa9452-1"
+        "165479898854ee1872-0",
+        "165479898854ee1872-1"
       ],
       "settings": {
         "full_width": false,
         "gutter_size": 20,
         "space_above": true,
         "space_below": true
-      }
-    },
-    "16547355120258cb68": {
-      "type": "slideshow-split",
-      "blocks": {
-        "1654735512255af3cf-1": {
-          "type": "slide",
-          "settings": {
-            "top_subheading": "",
-            "title": "Highlight products",
-            "title_size": 60,
-            "subheading": "Repurpose your product photography with our \"Indented\" image option",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "text_position": "right",
-            "image": "shopify:\/\/shop_images\/token_logo-removebg-preview_1_f4c9c41f-6050-4b62-98e0-0508282bad84.png",
-            "indent_image": true,
-            "focal_point": "center center",
-            "color_scheme": "2"
-          }
-        }
-      },
-      "block_order": [
-        "1654735512255af3cf-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "height": 650,
-        "height_mobile": 450,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
-    "1654798649ee5f70d0": {
-      "type": "featured-product",
-      "blocks": {
-        "16547986499b42d548-0": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "16547986499b42d548-1": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
-        "16547986499b42d548-2": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "color_swatches": false
-          }
-        },
-        "16547986499b42d548-3": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        }
-      },
-      "block_order": [
-        "16547986499b42d548-0",
-        "16547986499b42d548-1",
-        "16547986499b42d548-2",
-        "16547986499b42d548-3"
-      ],
-      "settings": {
-        "featured_product": "",
-        "divider": false,
-        "sku_enable": false,
-        "image_position": "left",
-        "image_container_size": "medium",
-        "product_image_size": "square",
-        "product_zoom_enable": true,
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "mobile_layout": "partial",
-        "enable_video_looping": true,
-        "product_video_style": "muted"
       }
     }
   },
@@ -549,8 +464,6 @@
     "rich-text",
     "1654733232cb7d1166",
     "1654735012e1cb1d27",
-    "16547354459761946e",
-    "16547355120258cb68",
-    "1654798649ee5f70d0"
+    "1654798989ae449aec"
   ]
 }
