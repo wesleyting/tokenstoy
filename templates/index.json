@@ -120,7 +120,7 @@
         "title": "Checkout Our Newest Arrivals",
         "home_featured_products": "new-arrivals",
         "count": 5,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": true,
         "divider": false
       }
@@ -142,7 +142,7 @@
         "title": "Featured collection",
         "home_featured_products": "",
         "count": 5,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": true,
         "divider": false
       }
@@ -418,7 +418,7 @@
             "height": 500,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
-            "color_accent": "#fff"
+            "color_accent": "#ffffff"
           }
         },
         "165479898854ee1872-1": {
@@ -436,7 +436,7 @@
             "height": 500,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
-            "color_accent": "#fff"
+            "color_accent": "#ffffff"
           }
         }
       },
