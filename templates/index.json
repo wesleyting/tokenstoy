@@ -346,6 +346,48 @@
         "color_scheme": "3",
         "divider": false
       }
+    },
+    "1654733232cb7d1166": {
+      "type": "slideshow-image",
+      "blocks": {
+        "165473323205cde11e-0": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/pages\/contact-us",
+            "image": "shopify:\/\/shop_images\/search_section_730a7d30-d82d-487c-b78c-17aad05e5e36.png"
+          }
+        }
+      },
+      "block_order": [
+        "165473323205cde11e-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1654735012e1cb1d27": {
+      "type": "slideshow-image",
+      "blocks": {
+        "1654735012a1188a42-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/shop_all_copy_b0200b17-5c47-48ea-84be-e5d7f838b9e0.png"
+          }
+        }
+      },
+      "block_order": [
+        "1654735012a1188a42-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
     }
   },
   "order": [
@@ -357,6 +399,8 @@
     "newsletter",
     "blog-posts",
     "slideshow-split2",
-    "rich-text"
+    "rich-text",
+    "1654733232cb7d1166",
+    "1654735012e1cb1d27"
   ]
 }
