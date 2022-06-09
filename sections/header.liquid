@@ -88,8 +88,9 @@
             {%- endif -%}
 
             {%- if nav_position == 'below' -%}
-              <div class="header-item header-item--search small--hide">
-                        <div class="site-header__search-container">
+              <div class="header-item header-item--search
+                          
+                                  <div class="site-header__search-container">
           <div class="page-width">
             <div class="site-header__search">
               {%- render 'header-search' -%}
@@ -100,6 +101,7 @@
             </div>
           </div>
         </div>
+                
                 {%- if logo_alignment == 'center' -%}
                   <button type="button" class="site-nav__link site-nav__link--icon site-nav__compress-menu">
                     <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 64 64"><path class="cls-1" d="M7 15h51">.</path><path class="cls-1" d="M7 32h43">.</path><path class="cls-1" d="M7 49h51">.</path></svg>
