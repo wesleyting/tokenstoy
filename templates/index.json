@@ -275,36 +275,6 @@
         "divider": false
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "title": "Sign up and save"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "form": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "text",
-        "form"
-      ],
-      "settings": {
-        "color_scheme": "2"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -421,6 +391,15 @@
             "color_accent": "#ffffff"
           }
         },
+        "2f7aae33-5a28-4e2d-976c-7ac8416e35c6": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "",
+            "width": "50",
+            "height": 300
+          }
+        },
         "165479898854ee1872-1": {
           "type": "advanced",
           "settings": {
@@ -438,17 +417,59 @@
             "focal_point": "center",
             "color_accent": "#ffffff"
           }
+        },
+        "25602cdd-6e40-4533-81f2-b38cd56e36b8": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_scheme": "none"
+          }
         }
       },
       "block_order": [
         "165479898854ee1872-0",
-        "165479898854ee1872-1"
+        "2f7aae33-5a28-4e2d-976c-7ac8416e35c6",
+        "165479898854ee1872-1",
+        "25602cdd-6e40-4533-81f2-b38cd56e36b8"
       ],
       "settings": {
         "full_width": false,
         "gutter_size": 20,
         "space_above": true,
         "space_below": true
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up and save"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To hear first about our sales, get special offers, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text",
+        "form"
+      ],
+      "settings": {
+        "color_scheme": "1"
       }
     }
   },
@@ -459,11 +480,11 @@
     "16547986394c886e66",
     "1654735012e1cb1d27",
     "logo-list",
-    "newsletter",
     "blog-posts",
     "slideshow-split2",
     "rich-text",
     "1654733232cb7d1166",
-    "1654798989ae449aec"
+    "1654798989ae449aec",
+    "newsletter"
   ]
 }
