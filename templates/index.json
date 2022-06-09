@@ -443,23 +443,6 @@
     "16547355120258cb68": {
       "type": "slideshow-split",
       "blocks": {
-        "1654735512255af3cf-0": {
-          "type": "slide",
-          "settings": {
-            "top_subheading": "",
-            "title": "Side by side slide",
-            "title_size": 60,
-            "subheading": "Tailored for longer text and smaller images. Explain more about your promotion.",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "text_position": "right",
-            "indent_image": false,
-            "focal_point": "center center",
-            "color_scheme": "2"
-          }
-        },
         "1654735512255af3cf-1": {
           "type": "slide",
           "settings": {
@@ -472,14 +455,14 @@
             "link_2": "",
             "link_text_2": "",
             "text_position": "right",
+            "image": "shopify:\/\/shop_images\/token_logo-removebg-preview_1_f4c9c41f-6050-4b62-98e0-0508282bad84.png",
             "indent_image": true,
             "focal_point": "center center",
-            "color_scheme": "1"
+            "color_scheme": "2"
           }
         }
       },
       "block_order": [
-        "1654735512255af3cf-0",
         "1654735512255af3cf-1"
       ],
       "settings": {
