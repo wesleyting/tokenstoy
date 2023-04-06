@@ -140,7 +140,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Best Sellers",
-        "home_featured_products": "best-sellers",
+        "home_featured_products": "best-seller",
         "count": 5,
         "mobile_scrollable": false,
         "view_all": true,
